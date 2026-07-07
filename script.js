@@ -10,7 +10,7 @@
     <p>Nyomd meg a gombot!</p>
     <button class="main-gomb">Kattints rám!</button>
     <p class="szoveg"></p>
-    <footer style="position: fixed; bottom: 0; width: 100%; text-align: center;">
+    <footer style="position: fixed; bottom: 20px; width: 100%; text-align: center;">
         <button class="reset-gomb">Reset</button>
     </footer>
 </body>
