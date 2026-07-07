@@ -8,7 +8,7 @@ resetGomb.style.display = 'none';
 gomb.addEventListener('click', function() {
     kattintasSzamlalo++;
     szöveg.textContent = "Kapsz " + kattintasSzamlalo + " libacombot!";
-    if(kattintasSzamlalo ===1) {
+    if(kattintasSzamlalo === 1) {
         resetGomb.style.display = 'block';
     }
 });
