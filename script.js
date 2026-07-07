@@ -24,6 +24,6 @@ resetGomb.addEventListener('click', function() {
         kattintasSzamlalo = 0;
         szöveg.textContent = "";
         resetGomb.style.display = 'none';
-        localstorage.removeItem('libacombok');
+        localStorage.removeItem('libacombok');
     }
 });
