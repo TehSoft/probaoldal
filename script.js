@@ -1,3 +1,4 @@
+const gomb = document.querySelector('.main-gomb');
 const szöveg = document.querySelector('.szoveg');
 const resetGomb = document.querySelector('.reset-gomb');
 const extraSzöveg = document.querySelector('.extra');
