@@ -1,20 +1,19 @@
-/* 1. Globális alapbeállítások az egész oldalra */
 body {
     background-color: #d1dae8; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 40px;
 }
 
-/* 2. Formázás a HTML tag neve alapján */
 h1 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db; /* Aláhúzás */
     padding-bottom: 10px;
 }
+h2 {
+    color: #2c3e50;
+}
 
-/* 3. Formázás osztály (class) alapján (a pont jelöli az osztályt)
-   Ez olyan, mintha egy egyedi stílus-objektumot hoznál létre */
-.main-gomb {
+.főgomb {
     background-color: #2ecc71; /* Zöld háttér */
     color: white;
     border: none;
@@ -24,8 +23,20 @@ h1 {
     cursor: pointer;
     transition: background 0.3s; /* Animáció effekt */
 }
-
-/* Egér ráhúzás (hover) effektus */
-.sajat-gomb:hover {
+.főgomb:hover {
     background-color: #27ae60; /* Sötétebb zöld */
+}
+
+.szorzógomb {
+    background-color: #ff4d4d; /* Piros háttérszín */
+    color: white;             /* Fehér szövegszín */
+    border: none;             /* Keret eltávolítása */
+    font-size: 16px;          /* Betűméret */
+    padding: 10px 20px;       /* Belső margó */
+    border-radius: 5px;       /* Lekerekített sarkok */
+    cursor: pointer;          /* Egérmutató kéz alakú lesz felette */
+    transition: background-color 0.3s; /* Sima színátmenet kattintáskor/lebegéskor */
+}
+.szorzógomb:hover {
+    background-color: #e60000;
 }
